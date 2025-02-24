@@ -34,6 +34,9 @@
       "Alith optimizes AI performance using Rust and supports low-latency, high-throughput model serving across CPUs, GPUs, and TPUs, making it a scalable solution for modern applications",
       "LazAI leverages blockchain technology for data traceability, privacy protection, and incentivizes diverse contributions within the AI ecosystem, ensuring transparency in its operations",
       "Alith is specifically designed for high-performance inference, able to scale with real-time data processing and meet the needs of complex AI-driven applications",
+      "Alith's official Twitter is https://x.com/0xalith",
+      "Alith's Git repository is https://github.com/0xLazAI/alith",
+      "Alith's technical documentation is https://alith.lazai.network/docs",
       {
         "directory": "alith",
         "shared": true
