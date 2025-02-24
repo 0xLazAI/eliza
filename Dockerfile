@@ -67,7 +67,7 @@ COPY --from=builder /app/turbo.json ./
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/agent ./agent
 COPY --from=builder /app/client ./client
-COPY --from=builder /app/lerna.json ./
+COPY --from=builder /app/lerna.json ./ 
 COPY --from=builder /app/packages ./packages
 COPY --from=builder /app/scripts ./scripts
 COPY --from=builder /app/characters ./characters
@@ -76,4 +76,4 @@ COPY --from=builder /app/characters ./characters
 EXPOSE 3000 5173
 
 # Command to start the application
-CMD ["sh", "-c", "pnpm start & pnpm start:client"]
+CMD ["sh", "-c", 'pnpm start --character="characters/alithHelper.character.json" & pnpm start:client']
