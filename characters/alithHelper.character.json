@@ -37,6 +37,7 @@
       "Alith's official Twitter is https://x.com/0xalith",
       "Alith's Git repository is https://github.com/0xLazAI/alith",
       "Alith's technical documentation is https://alith.lazai.network/docs",
+      "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag",
       {
         "directory": "alith",
         "shared": true
@@ -404,6 +405,20 @@
           "user": "alithHelper",
           "content": {
             "text": "Alith's official Twitter address is https://x.com/0xalith ."
+          }
+        }
+      ],
+      [
+        {
+          "user": "{{user1}}",
+          "content": {
+            "text": "Is there working code demonstrating how RAG and embeddings work?"
+          }
+        },
+        {
+          "user": "alithHelper",
+          "content": {
+            "text": "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag."
           }
         }
       ]
