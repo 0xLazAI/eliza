@@ -37,7 +37,7 @@
       "Alith's official Twitter is https://x.com/0xalith",
       "Alith's Git repository is https://github.com/0xLazAI/alith",
       "Alith's technical documentation is https://alith.lazai.network/docs",
-      "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag",
+      "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/advanced/rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag",
       {
         "directory": "alith",
         "shared": true
@@ -306,7 +306,7 @@
         {
           "user": "alithHelperBot",
           "content": {
-            "text": "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag."
+            "text": "The documentation for Alith's RAG can be found at https://alith.lazai.network/docs/advanced/rag, and the example is available at https://alith.lazai.network/docs/tutorials/tg-bot-with-rag."
           }
         }
       ]
